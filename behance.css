@@ -1,0 +1,39 @@
+.behance_entry {
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+	float: left;
+	font-family: Arial;
+	font-size: 0.8em;
+	margin: 0px 22px 22px 0px;
+	position: relative;
+	width: 202px;
+}
+
+.behance_entry img {
+	border-radius: 3px 3px 0px 0px;
+	height: 158px;
+	width: 202px;
+}
+
+.behance_entry .titlelink {
+	display: inline-block;
+	height: 55px;
+	padding: 5px 10px;
+	width: 182px;
+}
+
+.behance_entry a  {
+	color: rgb(0, 92, 255);
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.behance_entry p {
+	height: 80px;
+	padding: 5px 10px;
+}
+
+
+ 
