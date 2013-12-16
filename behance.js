@@ -1,5 +1,5 @@
 ﻿/* ----------------------------------------------------------------------------------------------- 
-	my-behance
+	My-Behance
 	A Javascript file to get a Behance user's projects, lightweight and easy to use.
 	by Marcelo Guzman (marceloguzman.com)
 	follow this project at: https://github.com/marceloguzman/my-behance
@@ -64,7 +64,7 @@ function format_results(e) {
 		description_text ="<p>"+ entry.contentSnippet + "</p>";
 		}
 		}
-		body += "<div class='behance_entry'>" + image + "<a class='titlelink' href='" + entry.link + "'>" + entry.title + "</a>" + description_text + "</div>";
+		body += "<div class='behance_entry'>" + image + "<a target='_blank' class='titlelink' href='" + entry.link + "'>" + entry.title + "</a>" + description_text + "</div>";
 	}
 	body += "</div>";
 	return body;
